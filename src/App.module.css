@@ -1,0 +1,25 @@
+/* src/App.module.css */
+.app {
+  background-image: url(Assets/cloud.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Overlay for readability */
+.appl::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(230, 209, 155, 0.3);
+  z-index: 0;
+}
+
+.mainContent {
+  position: relative;
+  z-index: 1;
+}

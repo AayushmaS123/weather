@@ -1,0 +1,55 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: rgb(98, 8, 8);
+  background-color: #000000;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  color: rgb(86, 0, 0);
+}
+
+/* Weather Component Styles */
+.weather-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.city-selector {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: indianred;
+}
+
+.weather-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgb(0, 4, 26);
+}
+
+.weather-table th, 
+.weather-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #000000;
+}
+
+.weather-table th {
+  background-color: #e48fe1;
+}
+
+.loading {
+  color: #666;
+}
+
+.error {
+  color: #d32f2f;
+}
