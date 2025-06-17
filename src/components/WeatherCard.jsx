@@ -8,7 +8,7 @@ const WeatherCard = ({ weather, loading, error, forecast }) => {
 
   useEffect(() => {
     if (weather) {
-      // Set animation based on weather condition
+      
       const condition = weather.weather[0].main.toLowerCase();
       if (condition.includes('rain')) setAnimation('rain');
       else if (condition.includes('snow')) setAnimation('snow');
